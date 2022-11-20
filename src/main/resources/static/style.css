@@ -1,0 +1,14 @@
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.menu li > a {
+    text-decoration: none;
+}
+
+.menu:first-child > a{
+    color: red;
+}
