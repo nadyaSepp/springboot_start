@@ -2,13 +2,34 @@
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 6rem;
+    text-align: center;
 }
-
+.id{
+    color: red;
+}
 .menu li > a {
     text-decoration: none;
 }
 
 .menu:first-child > a{
     color: red;
+}
+
+.header{
+    gap: 6rem;
+    color:darkblue;
+}
+.header2{
+    justify-content: center;
+    gap: 10rem;
+    text-align: center;
+    color:blue;
+}
+
+.info{
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+    color:blue;
 }

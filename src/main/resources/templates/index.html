@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Test Project hello</title>
+    <style>
+        #global{
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 <body>
-
     <div class="header">
         <ul class="menu">
-            <li><a href="/">Главная</a></li>
-            <li><a href="/about">О нас</a></li>
-            <li><a href="/projects">Наши проекты</a></li>
+            <li id="global"><a href="/" title="Главная страница">Главная</a></li>
+            <li><a href="/about" title="Информация о Компьютерной Академии">О нас</a></li>
+            <li><a href="/projects" title="Проекты, выполненные учениками Академии">Наши проекты</a></li>
         </ul>
     </div>
-
+    <div class="header2">
+        <h1><i>Информация о главном<i></h1>
+    </div>
+    <div>
+        <img src="foto2.webp-portal" width="700" height="500">
+    </div>
 </body>
 </html>
